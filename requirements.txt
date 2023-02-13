@@ -20,6 +20,5 @@ s3transfer==0.6.0
 scheduler-cli==1.4.0
 six==1.16.0
 tomli==2.0.1
-typing_extensions @ file:///private/tmp/python-typing-extensions-20221116-6889-x0y4g9/typing_extensions-4.4.0/dist/typing_extensions-4.4.0-py3-none-any.whl
 urllib3==1.26.12
 virtualenv==20.16.5
