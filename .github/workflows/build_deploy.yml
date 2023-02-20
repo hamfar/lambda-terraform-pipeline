@@ -27,7 +27,8 @@ jobs:
     
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r requirements.txt -t . 
+          zip -r lambda_function_payload.zip .
     
       - name: Terraform Init
         run: terraform init
