@@ -1,3 +1,11 @@
+
+terraform {
+  backend "s3" {
+    bucket = "100.terraform.state"
+    key    = "/lambda-terraform-pipeline"
+    region = "eu-west-1"
+  }
+}
 resource "aws_iam_role" "iam_for_lambda" {
   name = "iam_for_lambda"
 
