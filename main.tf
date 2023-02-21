@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket = "100.terraform.state"
-    key    = "/lambda-terraform-pipeline"
+    key    = "lambda-terraform-pipeline"
     region = "eu-west-1"
   }
 }
